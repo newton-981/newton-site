@@ -23,7 +23,7 @@ export default function HeroHome() {
                 data-aos-delay={200}
               >
                 {/* Newton is the ultimate place to do math. From 2+2, to advanced numerical simulations or neural network design—Newton has you covered. */}
-                Newton is a one-stop-shop <b>online math workspace</b> for all areas of mathematics. From 2+2=4, to advanced engineering controls, numerical simulations or neural network design—Newton has you covered.
+                Newton is a one-stop-shop, <b>online math workspace</b> for all areas of mathematics. From 2+2=4, to advanced engineering controls, numerical simulations or neural network design—Newton has you covered.
               </p>
               <p
                 className="mb-8 text-xl text-indigo-200/65"

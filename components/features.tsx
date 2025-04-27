@@ -74,7 +74,7 @@ export default function Features() {
                 Engineering Math
               </h3>
               <p className="text-indigo-200/65">
-                All your formulas will in the same place you DO the math! 
+                Your formulas will be in the same place you actually DO the math! 
                 No more fumbling around with 10 lb textbooks or having 30 tabs of Engineering Toolbox open. 
               </p>
             </article>
@@ -180,7 +180,7 @@ export default function Features() {
                 Data Analysis
               </h3>
               <p className="text-indigo-200/65">
-                Jump into the simplest data analysis tool you've ever seen.
+                Jump into the simplest data analysis tool you've ever seen. Become a data ninja.
               </p>
             </article>
           </div>

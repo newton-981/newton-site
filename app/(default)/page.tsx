@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "Newton",
+  description: "Ushering in a New Era Where Technology Obliterates Number-crunching",
 };
 
 import PageIllustration from "@/components/page-illustration";

@@ -51,11 +51,11 @@ export default function HeroHome2() {
                 What used to take hours will take minutes.
               </p>
               <Image
-                className="max-w-none"
                 src={TimeSaving}
                 width={760}
                 height={668}
                 alt="Blurred shape"
+                style={{maxWidth: '95%'}}
               />
             </div>
           </div>
