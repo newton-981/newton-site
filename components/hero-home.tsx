@@ -31,8 +31,8 @@ export default function HeroHome() {
                 data-aos-delay={200}
               >
                 Newton is founded on the idea that math should be deeply intuitive to learn, simple to implement and seamless to share. 
-                No more wasting time formatting spreadsheets or obeying code syntax. 
-                Newton that will save millions of hours for engineers, data scientists, and anyone who is building the future. 
+                No more wasting time formatting spreadsheets or obeying code syntax.
+                From 1st grader to rocket scientist, Newton will make complex math feel simple and save millions of hours for everyone, especially those building the future. 
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>
