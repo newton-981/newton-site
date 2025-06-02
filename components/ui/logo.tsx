@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/images/logo_no_bgnd.png";
+import logo from "@/public/images/logo_wide_dark.png";
 
 export default function Logo() {
   return (

@@ -34,15 +34,15 @@ export default function Features() {
         <div className="border-t py-12 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1] md:py-20">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
-            <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
-              <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
+            <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-blue-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-blue-200/50">
+              <span className="inline-flex bg-linear-to-r from-blue-500 to-blue-200 bg-clip-text text-transparent">
                 Newton's Features
               </span>
             </div>
-            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
+            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-blue-200),var(--color-gray-50),var(--color-blue-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
               Handling all types of math
             </h2>
-            <p className="text-lg text-indigo-200/65">
+            <p className="text-lg text-blue-200/65">
               Newton is here whether you are learning 2+2=4 or performing advanced controls simulations
             </p>
           </div>
@@ -59,7 +59,7 @@ export default function Features() {
           <div className="mx-auto grid max-w-sm gap-12 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-3">
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-blue-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -73,14 +73,14 @@ export default function Features() {
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                 Engineering Math
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-blue-200/65">
                 Your formulas will be in the same place you actually DO the math! 
                 No more fumbling around with 10 lb textbooks or having 30 tabs of Engineering Toolbox open. 
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-blue-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -91,13 +91,13 @@ export default function Features() {
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                 Elementary Education
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-blue-200/65">
                 Level up from 2+2=4 to 2<sup>2</sup>=4 in no time. You can blame us when 1st graders are doing numerical integration.
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-blue-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -111,16 +111,16 @@ export default function Features() {
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                 Data Visualization
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-blue-200/65">
                 Quickly find and understand relationships*
               </p>             
-              <p className="text-indigo-200/65">
+              <p className="text-blue-200/65">
                 *Newton is not a dating app (not yet at least)
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-blue-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -139,13 +139,13 @@ export default function Features() {
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                 Controls and Numerical Simulation
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-blue-200/65">
                 PID: People Insist on Doing-math-with-Newton
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-blue-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -159,13 +159,13 @@ export default function Features() {
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                 Sharing
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-blue-200/65">
                 Quickly share models and equations with teammates... or even just your mates.
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-blue-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -179,7 +179,7 @@ export default function Features() {
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                 Data Analysis
               </h3>
-              <p className="text-indigo-200/65">
+              <p className="text-blue-200/65">
                 Jump into the simplest data analysis tool you've ever seen. Become a data ninja.
               </p>
             </article>
