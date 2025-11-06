@@ -17,23 +17,22 @@ export default function HeroHome() {
               {/* Ushering in New Era Where Technology Obliterates Number-crunching */}
             </h1>
             <div className="mx-auto max-w-3xl">
-            <p
+              <p
                 className="mb-8 text-xl text-blue-200/65"
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
                 {/* Newton is the ultimate place to do math. From 2+2, to advanced numerical simulations or neural network design—Newton has you covered. */}
-                Newton is a one-stop-shop, <b>online math workspace</b> for all areas of mathematics. 
-                From 2+2=4, to advanced engineering mathematics—Newton has you covered.
+                Newton is a one-stop-shop, <b>online math workspace</b> where you can create and share math fast. 
+                No more wasting time formatting spreadsheet formulas or obeying code syntax.
+                With Newton, all math from equations to plots is at your fingertips.
               </p>
               <p
                 className="mb-8 text-xl text-blue-200/65"
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Newton is founded on the idea that math should be deeply intuitive to learn, simple to implement and seamless to share. 
-                No more wasting time formatting spreadsheets or obeying code syntax.
-                From 1st grader to rocket scientist, Newton will make complex math feel simple and save millions of hours for everyone, especially those building the future. 
+                From 2+2=4, to advanced engineering—Newton has you covered.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>

@@ -16,18 +16,13 @@ export default function Header() {
           <ul className="flex flex-wrap flex-1 items-center justify-end gap-3">
             <li>
               <Link
-                href="https://app.newton.app/signin"
-                className="hidden sm:flex btn-sm relative bg-linear-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] py-[5px] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%]"
-              >
-                Sign In
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="https://app.newton.app/signup"
                 className="btn-sm bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%]"
               >
-                Register
+                Get Started
+                <span className="ml-1 tracking-normal text-white/50 transition-transform group-hover:translate-x-0.5">
+                  -&gt;
+                </span>
               </Link>
             </li>
           </ul>
