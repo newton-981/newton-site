@@ -30,16 +30,16 @@ export default function HeroHome() {
                   data-aos-delay={200}
                 >
                   {/* Newton is the ultimate place to do math. From 2+2, to advanced numerical simulations or neural network design—Newton has you covered. */}
-                  Newton is a one-stop-shop, <b>online math workspace</b> where you can create and share math fast. 
+                  Newton is a one-stop-shop, <b>online math workspace</b> where you can create and share math ludicrously fast. 
+                  Built for everyone from engineers making high-stakes calculations to students learning basic arithmetic.
                   No more wasting time formatting spreadsheet formulas or obeying code syntax.
-                  With Newton, all math from equations to plots is at your fingertips.
                 </p>
                 <p
                   className="mb-8 text-xl text-blue-200/65"
                   data-aos="fade-up"
                   data-aos-delay={200}
                 >
-                  From 2+2=4, to advanced engineering—Newton has you covered.
+                  With Newton, all math is at your fingertips.
                 </p>
                 <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                   <div data-aos="fade-up" data-aos-delay={400}>
