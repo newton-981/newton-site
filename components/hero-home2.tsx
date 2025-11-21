@@ -25,17 +25,26 @@ export default function HeroHome2() {
               Simplify Math.
             </h1> */}
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-blue-200),var(--color-gray-50),var(--color-blue-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Why Newton
+              Why Newton?
             </h2>
             <div className="mx-auto max-w-3xl">
-            <p
+              <h3 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-100),var(--color-blue-200),var(--color-gray-50),var(--color-blue-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-2xl font-semibold text-transparent md:text-3xl">
+                1 — Do math fast
+              </h3>
+              <p
                 className="mb-8 text-xl text-blue-200/65"
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                With current math tools, most of the time spent doing math is <b>wasted</b>...
-                It's wasted formatting spreadsheets, obeying code syntax, or setting up environments, etc.
+                With current math tools, most time is <b>wasted formatting spreadsheets</b> and <b>obeying code syntax</b>, etc.
               </p>
+              <Image
+                src={TimeSaving}
+                width={760}
+                height={668}
+                alt="Blurred shape"
+                style={{maxWidth: '95%'}}
+              />
               <p
                 className="mb-8 text-xl text-blue-200/65"
                 data-aos="fade-up"
@@ -50,13 +59,23 @@ export default function HeroHome2() {
               >
                 What used to take hours will take minutes.
               </p>
-              <Image
-                src={TimeSaving}
-                width={760}
-                height={668}
-                alt="Blurred shape"
-                style={{maxWidth: '95%'}}
-              />
+              <h3 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-100),var(--color-blue-200),var(--color-gray-50),var(--color-blue-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-2xl font-semibold text-transparent md:text-3xl">
+                2 — Make sharing math easy
+              </h3>
+              <p
+                className="mb-8 text-xl text-blue-200/65"
+                data-aos="fade-up"
+                data-aos-delay={200}
+              >
+                Any math you create in Newton can be easily shared with a link for viewing or collaboration.
+              </p>
+              <p
+                className="mb-8 text-xl text-blue-200/65"
+                data-aos="fade-up"
+                data-aos-delay={200}
+              >
+                Newton's intuitive interface and consistent formatting make understanding your teammates' math easy. No more untangling messy spreadsheets.
+              </p>
             </div>
           </div>
 
