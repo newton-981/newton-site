@@ -74,7 +74,7 @@ export default function Features() {
                 Engineering Math
               </h3>
               <p className="text-blue-200/65">
-                Your formulas will be in the same place you actually DO the math! 
+                Lookup formulas and values in the same place you actually DO the math! 
                 No more fumbling around with 10 lb textbooks or having 30 tabs of Engineering Toolbox open. 
               </p>
             </article>

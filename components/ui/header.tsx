@@ -6,7 +6,7 @@ import Logo from "./logo";
 import DemoModal from "../demo-modal";
 
 export default function Header() {
-  const [isDemoModalOpen, setIsDemoModalOpen] = useState(false);
+  // const [isDemoModalOpen, setIsDemoModalOpen] = useState(false);
 
   return (
     <>
@@ -20,21 +20,21 @@ export default function Header() {
             {/* Desktop sign in links */}
             <ul className="flex flex-wrap flex-1 items-center justify-end gap-3">
               <li>
-                <button
-                  onClick={() => setIsDemoModalOpen(true)}
+                <Link
+                  href={"https://docs.google.com/forms/d/e/1FAIpQLSeyyfShoLnzpG5VRM0S7931YIsgQ7iE_71MXUI-x3-uWEr3GQ/viewform?usp=sharing"}
                   className="btn-sm bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] py-[5px] shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%]"
                 >
                   Get Started
                   <span className="ml-1 tracking-normal text-white/50 transition-transform group-hover:translate-x-0.5">
                     -&gt;
                   </span>
-                </button>
+                </Link>
               </li>
             </ul>
           </div>
         </div>
       </header>
-      <DemoModal isOpen={isDemoModalOpen} onClose={() => setIsDemoModalOpen(false)} />
+      {/* <DemoModal isOpen={isDemoModalOpen} onClose={() => setIsDemoModalOpen(false)} /> */}
     </>
   );
 }
