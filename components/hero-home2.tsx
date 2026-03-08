@@ -73,7 +73,7 @@ export default function HeroHome2() {
                       <li>No more untangling teammates' messy spreadsheets</li>
                     </ul>
                   </li>
-                  <li>Any material property or equation can be lookup and inserted in seconds
+                  <li>Any material property or equation can be looked up and inserted in seconds
                     <ul className="list-inside list-disc text-left ml-8">
                       <li>No more fumbling 10 lb textbooks or having 30 tabs of Engineering Toolbox open</li>
                     </ul>
