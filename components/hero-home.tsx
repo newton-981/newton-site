@@ -48,7 +48,7 @@ export default function HeroHome() {
                 <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                   <div data-aos="fade-up" data-aos-delay={400}>
                     <Link
-                      href={"https://docs.google.com/forms/d/e/1FAIpQLSeyyfShoLnzpG5VRM0S7931YIsgQ7iE_71MXUI-x3-uWEr3GQ/viewform?usp=sharing"}
+                      href={"https://my.newton.app/waitlist"}
                       className="btn group mb-4 w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
                     >
                       <span className="relative inline-flex items-center">
