@@ -17,13 +17,16 @@ export default function HeroHome() {
           <div className="py-12 md:py-20">
             {/* Section header */}
             <div className="pb-12 text-center md:pb-20">
+              <div className="mx-auto w-dvw/80 md:w-3xl pb-6 aspect-video" data-aos="fade-up" data-aos-delay={200}>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/IXWPHH5Bfkw?si=YbcLjF5gHv8bI-D-" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+              </div> 
               <h1
                 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-blue-200),var(--color-gray-50),var(--color-blue-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
                 data-aos="fade-up"
               >
                 simplify math.
                 {/* Ushering in New Era Where Technology Obliterates Number-crunching */}
-              </h1>
+              </h1>             
               <div className="mx-auto max-w-3xl">
                 <p
                   className="mb-8 text-xl text-blue-200/65"
