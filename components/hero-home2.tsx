@@ -23,13 +23,25 @@ export default function HeroHome2() {
             </h2>
             <div className="mx-auto max-w-3xl">
               <p
+                className="mb-2 text-xl text-blue-200/65"
+                data-aos="fade-up"
+                data-aos-delay={200}
+              >
+                With current math tools (spreadsheets, MATLAB, Python, etc.), most time is wasted...
+              </p>
+              <ul className="mb-8 text-xl text-blue-200/65 list-inside list-disc">
+                <li><b>formatting spreadsheets</b></li>
+                <li><b>worrying about code syntax and environments</b></li>
+                <li><b>switching between multiple tools</b></li>
+              </ul>
+              <p
                 className="mb-8 text-xl text-blue-200/65"
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                With current math tools (spreadsheets, MATLAB, Python, etc.), most time is wasted 
-                {" "}<b>formatting spreadsheets</b> and 
-                {" "}<b>worrying about code environments</b>.
+                Newton is built to fix these problems by providing an intuitive, fully capable, all-in-one math workspace.
+                With Newton, the math you need next is <b>only a few clicks away</b>; whether it's a calculation, plot, table, or unit conversion. <br/>
+                <b>Do math intuitively and get answers immediately</b>.
               </p>
               <Image
                 src={TimeSaving}
@@ -68,16 +80,9 @@ export default function HeroHome2() {
                   <li>Tables, plots, and more are only a click away</li>
                   <li>Share and collaborate easily with a link</li>
                   <li>Units handled automatically</li>
-                  <li>Formatting is consistent
-                    <ul className="list-inside list-disc text-left ml-8">
-                      <li>No more untangling teammates' messy spreadsheets</li>
-                    </ul>
-                  </li>
-                  <li>Any material property or equation can be looked up and inserted in seconds
-                    <ul className="list-inside list-disc text-left ml-8">
-                      <li>No more fumbling 10 lb textbooks or having 30 tabs of Engineering Toolbox open</li>
-                    </ul>
-                  </li>
+                  <li><b>Formatting is consistent</b>: No more untangling teammates' messy spreadsheets</li>
+                  <li>Look up any material property or equation in seconds: No more fumbling 10 lb textbooks or having open 30 tabs of Engineering Toolbox</li>
+                  <li><b>Raw code escape hatch</b>: If Newton doesn't yet have blocks for a niche workflow, simply add a Python block.</li>
                 </ul>
               </div>
               <p
