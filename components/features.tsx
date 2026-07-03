@@ -42,18 +42,13 @@ export default function Features() {
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-blue-200),var(--color-gray-50),var(--color-blue-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
               Handling all types of math
             </h2>
-            <p className="text-lg text-blue-200/65">
+            <p 
+              className="text-lg text-blue-200/65"
+              data-aos="fade-up"
+              data-aos-delay={200}
+            >
               Newton is here whether you are learning 2+2=4 or performing advanced controls simulations
             </p>
-          </div>
-          <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
-            {/* <Image
-              className="max-w-none"
-              src={FeaturesImage}
-              width={1104}
-              height={384}
-              alt="Features"
-            /> */}
           </div>
           {/* Items */}
           <div className="mx-auto grid max-w-sm gap-12 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-3">
@@ -184,6 +179,8 @@ export default function Features() {
               </p>
             </article>
           </div>
+          <div className="mx-auto max-w-xl">
+        </div>
         </div>
       </div>
     </section>

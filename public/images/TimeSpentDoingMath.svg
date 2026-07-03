@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300">
+  <!-- Title -->
+  <text x="380" y="28" text-anchor="middle"
+        font-family="Inter, system-ui, -apple-system, sans-serif"
+        font-size="17" font-weight="600" letter-spacing="-0.3" fill="#e2e8f0">Time Spent Doing Math</text>
+
+  <!-- Legend -->
+  <rect x="255" y="44" width="12" height="12" rx="3" fill="#3B82F6"/>
+  <text x="273" y="55"
+        font-family="Inter, system-ui, -apple-system, sans-serif"
+        font-size="12" fill="#64748b">Thinking</text>
+  <rect x="343" y="44" width="12" height="12" rx="3" fill="#EF4444"/>
+  <text x="361" y="55"
+        font-family="Inter, system-ui, -apple-system, sans-serif"
+        font-size="12" fill="#64748b">Programming</text>
+
+  <!-- Y-axis line -->
+  <line x1="215" y1="72" x2="215" y2="252" stroke="#334155" stroke-width="1"/>
+
+  <!-- Vertical grid lines -->
+  <line x1="390" y1="72" x2="390" y2="252" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="565" y1="72" x2="565" y2="252" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="740" y1="72" x2="740" y2="252" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Baseline -->
+  <line x1="215" y1="252" x2="740" y2="252" stroke="#334155" stroke-width="1"/>
+
+  <!-- X-axis labels: 0=215, 20=390, 40=565, 60=740 -->
+  <text x="215" y="270" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#475569">0</text>
+  <text x="390" y="270" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#475569">20</text>
+  <text x="565" y="270" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#475569">40</text>
+  <text x="740" y="270" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#475569">60</text>
+
+  <!-- ROW 1: code, spreadsheets, existing software (bars y=100..153) -->
+  <text x="210" y="121" text-anchor="end"
+        font-family="Inter, system-ui, -apple-system, sans-serif"
+        font-size="12" fill="#94a3b8">code, spreadsheets,</text>
+  <text x="210" y="138" text-anchor="end"
+        font-family="Inter, system-ui, -apple-system, sans-serif"
+        font-size="12" fill="#94a3b8">existing software</text>
+
+  <!-- Blue bar: 8 units = 70px — left corners rounded only (rx=7) -->
+  <path d="M 222,100 L 285,100 L 285,153 L 222,153 Q 215,153 215,146 L 215,107 Q 215,100 222,100 Z" fill="#3B82F6"/>
+  <!-- Red bar: 52 units = 455px — right corners rounded only (rx=7) -->
+  <path d="M 285,100 L 733,100 Q 740,100 740,107 L 740,146 Q 740,153 733,153 L 285,153 Z" fill="#EF4444"/>
+  <text x="296" y="132"
+        font-family="Inter, system-ui, -apple-system, sans-serif"
+        font-size="12" font-weight="600" fill="white">Time wasted (syntax, context switching, untangling teammates' math)</text>
+
+  <!-- ROW 2: Newton (bars y=175..228) -->
+
+  <!-- Newton app icon: blue rounded square with real logo -->
+  <rect x="103" y="175" width="48" height="48" rx="11" fill="#3B82F6"/>
+  <svg x="108" y="180" width="38" height="38" viewBox="0 0 889 1282" style="overflow:visible">
+    <g transform="matrix(1,0,0,1,-1021.15,-2954)">
+      <g transform="matrix(0.555533,0,0,0.915776,1015.1,248.235)">
+        <g transform="matrix(2.01396,0,0,1.22172,-474.383,2933.17)">
+          <g transform="matrix(2.40999,0,0,2.40999,905.945,861.129)">
+            <path d="M-56.453,-170.022C-65.658,-171.481 -104.025,-168.193 -146.069,-126.154C-146.871,-125.352 -150.376,-121.589 -157.134,-120.501C-174.522,-117.7 -220.525,-108.857 -238.848,-71.728C-256.657,-35.639 -235.382,3.674 -227.257,17.211C-204.51,55.11 -162.627,91.113 -128.969,102.696C-107.41,110.115 -97.399,104.8 -93.992,102.721C-83.109,96.081 -79.242,81.781 -70.834,69.787C-67.7,65.316 -60.451,55.848 -46.117,50.735C-27.55,44.114 -14.429,52.024 -1.92,49.833C18.366,46.28 26.421,15.422 24.862,-21.489C22.5,-77.422 -1.148,-143.006 -39.251,-163.9C-47.206,-168.263 -53.7,-169.519 -56.453,-170.022Z" style="fill:white;fill-opacity:0;stroke:white;stroke-width:37.78px;"/>
+          </g>
+          <g transform="matrix(3.22272,0.00100905,-0.00100905,3.22272,571.283,261.383)">
+            <path d="M0,33.697L-34.09,59.254L-37.018,55.365C-50.083,37.857 -46.568,13.061 -29.078,0.005L5.029,-25.557L7.908,-21.651C21.022,-4.161 17.492,20.586 0,33.697" style="fill:white;fill-rule:nonzero;stroke:white;stroke-width:0.28px;stroke-linecap:round;"/>
+          </g>
+          <g transform="matrix(2.92359,0,0,5.50431,987.874,-126.509)">
+            <path d="M0,102.873L7.945,38.416L15.888,102.873C16.17,115.461 -0.576,115.462 0,102.873Z" style="fill:white;fill-rule:nonzero;"/>
+          </g>
+          <g transform="matrix(2.92359,0,0,4.94451,743.947,-222.346)">
+            <path d="M0,102.873L7.945,48.7L15.888,102.873C16.17,115.461 -0.576,115.462 0,102.873Z" style="fill:white;fill-rule:nonzero;"/>
+          </g>
+          <g transform="matrix(2.92359,0,0,5.269,241.788,-24.5161)">
+            <path d="M0,102.873L7.945,31.601L15.888,102.873C16.17,115.461 -0.576,115.462 0,102.873Z" style="fill:white;fill-rule:nonzero;"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>
+
+  <text x="210" y="204" text-anchor="end"
+        font-family="Inter, system-ui, -apple-system, sans-serif"
+        font-size="12" fill="#94a3b8">Newton</text>
+
+  <!-- Blue bar: 8 units = 70px — all corners rounded -->
+  <rect x="215" y="175" width="70" height="53" rx="7" fill="#3B82F6"/>
+  <text x="296" y="207"
+        font-family="Inter, system-ui, -apple-system, sans-serif"
+        font-size="12" font-weight="600" fill="#e2e8f0">Program at the speed you think</text>
+</svg>
