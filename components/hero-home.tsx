@@ -98,7 +98,6 @@ export default function HeroHome() {
 
               <h1
                 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-blue-200),var(--color-gray-50),var(--color-blue-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
-                data-aos="fade-up"
               >
                 simplify math.
                 {/* Ushering in New Era Where Technology Obliterates Number-crunching */}
@@ -106,8 +105,6 @@ export default function HeroHome() {
               <div className="mx-auto max-w-3xl [&_strong]:text-blue-200">
                 <p
                   className="mb-8 text-xl text-blue-200/65"
-                  data-aos="fade-up"
-                  data-aos-delay={200}
                 >
                   <strong>Engineers and Scientists</strong> need a faster way to <strong>do</strong> and <strong>share</strong> mission critical math.
                 </p>
@@ -116,20 +113,33 @@ export default function HeroHome() {
                   data-aos="fade-up"
                   data-aos-delay={200}
                 >
-                  {/* Newton is the ultimate place to do math. From 2+2, to advanced numerical simulations or neural network design—Newton has you covered. */}
                   Newton is a one-stop-shop, <strong>math workspace</strong> where you create and share math <strong>ludicrously fast</strong>.
-                  Built for everyone from <strong>students learning basic arithmetic</strong> to <strong>engineering teams sharing high-stakes analyses</strong>.
-                  {/* No more wasting time formatting spreadsheet formulas or obeying code syntax. */}
+                  Whether you're an <strong>engineer</strong>, <strong>scientist</strong>, <strong>AI researcher</strong>, or <strong>student</strong>, 
+                  Newton has everything you need in one place.
+                  <br />
+                  No more untangling spreadsheet formulas. No more deciding what tool to use. No more switching between spreadsheets, notebooks, and one-off tools.
                 </p>
                 <p
                   className="mb-8 text-xl text-blue-200/65"
                   data-aos="fade-up"
                   data-aos-delay={200}
                 >
-                  No more deciding what tool to use.
-                  No more wasting time with spreadsheet formulas or obeying code syntax.
-                  {/* Newton brings together the best of spreadsheets, graphing calculators, programming. */}
+                {" "}
+                  Newton offers easy-to-use tools for <strong>unit-aware calculations</strong>, <strong>plotting</strong>, and more.
+                  <br />
+                  In addition, Newton provides <strong>Python</strong> for when you need to take manual control.
+                  Thanks to Newton's unique notebook design, code and UI can live and work together seamlessly.
                 </p>
+                {/* <p
+                  className="mb-8 text-xl text-blue-200/65"
+                  data-aos="fade-up"
+                  data-aos-delay={200}
+                >
+                  No more deciding what tool to use.
+                  No more switching between spreadsheets, notebooks, and 
+                  No more untangling spreadsheet formulas.
+                  Math just works.
+                </p> */}
                 <p
                   className="mb-8 text-xl text-blue-200/65"
                   data-aos="fade-up"

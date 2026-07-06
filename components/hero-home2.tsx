@@ -79,7 +79,7 @@ export default function HeroHome2() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                <strong>With most tools</strong> there is an <strong>inherent trade-off between simplicity and capability</strong>. 
+                <strong>With most tools</strong> there is an inherent trade-off between <strong>simplicity</strong> and <strong>capability</strong>. 
                 Newton's unique approach enables <strong>both</strong> by allowing beautiful intuitive UI to live alongside raw code.
               </p>
               <Image
