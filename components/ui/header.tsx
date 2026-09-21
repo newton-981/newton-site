@@ -21,7 +21,7 @@ export default function Header() {
             <ul className="flex flex-wrap flex-1 items-center justify-end gap-3">
               <li>
                 <Link
-                  href={"https://my.newton.app/waitlist"}
+                  href={"https://my.newton.app/login"}
                   className="btn-sm bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] py-[5px] shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%]"
                 >
                   Get Started

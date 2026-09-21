@@ -12,12 +12,11 @@ export default function CareersPage() {
             Join Newton
           </h1>
           <p className="mb-4 max-w-xl text-lg text-blue-200/65">
-            We're building the future of scientific computing. If you're
-            exceptional at what you do and seek hard problems,
-            reach out.
+            We're making math {'>'}10x faster by building the future of scientific computing.
+            If you're exceptional at what you do and seek hard problems, reach out.
           </p>
           <p className="mb-8 max-w-xl text-lg text-blue-200/65">
-            Experience as a developer of Jupyter related tools is a plus.
+            Experience as a developer of Jupyter, IDEs, or related tools is a plus.
           </p>
           <p className="mb-8 text-blue-200/65">
             Send resume and/or 3 bullet points demonstrating exceptional ability to{" "}
@@ -29,7 +28,7 @@ export default function CareersPage() {
             </a>
           </p>
           <p className="text-blue-200/65 text-xs max-w-xl cursor-default opacity-0 hover:opacity-100 transition-opacity">
-            ps. tired of forced to vibe coding? AI psychosis? tokenmaxxing? At Newton, humans own every line of code.
+            p.s. Tired of tokenmaxxing? At Newton, humans own every line of code.
             While AI is extremely useful, the buck stops at you.
           </p>
         </div>
