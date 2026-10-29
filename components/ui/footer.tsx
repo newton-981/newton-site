@@ -38,6 +38,14 @@ export default function Footer() {
             >
               Careers
             </a>
+            <a
+              className="text-blue-200/65 transition hover:text-blue-500"
+              href="https://discord.gg/2SnySGYfwN"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Discord
+            </a>
             {/* Uncomment as pages go live:
             <a className="text-blue-200/65 transition hover:text-blue-500" href="/blog">Blog</a>
             <a className="text-blue-200/65 transition hover:text-blue-500" href="/pricing">Pricing</a>
